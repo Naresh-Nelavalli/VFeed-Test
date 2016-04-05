@@ -1,9 +1,0 @@
-extends layout
-
-block content
-    h1= title
-    form#formAddFoods(name="addfoods",method="post",action="/addfoods")
-        input#inputStoreName(type="text", placeholder="StoreName", name="StoreName")
-        input#inputStoreAdress(type="text", placeholder="Adress", name="Adress")
-        input#inputStoreAdress(type="text", placeholder="FoodItems", name="FoodItems")
-        button#btnSubmit(type="submit") submit

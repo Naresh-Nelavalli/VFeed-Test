@@ -1,3 +1,0 @@
-var mongooseClient = require('mongoose');
-
-mongooseClient.connect('mongodb://localhost/foodStore');
